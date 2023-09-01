@@ -1,14 +1,12 @@
-name: pipeline-trigger
-
+name: jenkins
 on:
   push:
     branches:
       - master
-      - feature/*
-
+      
 jobs:
   build:
-    name: Build
+    name: jenkins
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Jenkins Job

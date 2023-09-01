@@ -15,5 +15,5 @@ jobs:
       with:
         url: "http://3.111.21.233:8080/"
         user: "ajin"
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.JENKINS_KEY }}
         job: "dev"

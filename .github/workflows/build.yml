@@ -16,4 +16,4 @@ jobs:
         url: "http://3.111.21.233:8080/"
         user: "ajin"
         token: ${{ secrets.JENKINS_KEY }}
-        job: "dev"
+        job: "master"
